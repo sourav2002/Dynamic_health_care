@@ -1,0 +1,76 @@
+body{
+	background-image:url("pic6.jpg");
+	background-blend-mode:lighten;
+	height:100%;
+	margin:0;
+	background-repeat:no-repeat;
+	background-color:grey;
+	background-attachment:fixed;
+	background-size:cover;
+}
+button{
+	cursor:pointer;
+}
+#home{
+	width:6%;
+	height:8%;
+	cursor:pointer;
+	position:absolute;
+}
+#first{
+	height:26%;
+	width:100%;
+	background-color:rgb(54,4,29);
+	cursor:pointer;
+}
+#head{
+	font-size:650%;
+	color:white;
+	font-style:Italic;
+	padding-top:2.4%;
+	font-family:Colonna MT;
+	text-allign:center;
+	font-weight:bolder;
+	position:relative;
+	animation-name:forhead;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-duration:7s;
+}
+@keyframes forhead{
+	from {left: 65%;}
+  to {left: -10%;}
+}
+.icon{
+	height:8%;
+	width:min(12%);
+	color:black;
+	background-color:rgb(185,336,375);
+	font-weight:bolder;
+	font-size:100%;
+	border-radius:15%;
+	cursor:pointer;
+}
+#enter_location{
+	text-align:center;
+	width:60%;
+	height:60%;
+	border-radius:12%;
+	margin-top:2%;
+	margin-left:20%;
+	font-family:rockwell;
+	font-size:400%;
+	background-color:rgb(226,226,62);
+	color:rgb(0,32,96);
+	font-weight:bolder;
+	
+}
+
+
+
+
+
+
+
+
+
